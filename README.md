@@ -1,6 +1,6 @@
 # 1D CNN Audio Generation
 
-A deep learning project implementing a 1D Convolutional Neural Network (CNN) architecture for audio generation. This model uses an encoder-decoder architecture with mel spectrograms for audio processing and generation.
+A deep learning project implementing a 1D Convolutional Neural Network (CNN) architecture for toot sound effect audio generation. This model uses an encoder-decoder architecture with mel spectrograms for audio processing and generation.
 
 ## Architecture Overview
 
@@ -59,6 +59,42 @@ Required libraries:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Development Roadmap
+
+Our development roadmap outlines the planned phases and milestones for enhancing the audio generation system. Each phase builds upon the previous one to create a more sophisticated and capable model.
+
+### Phase 1: Core Architecture Implementation
+We are currently focused on establishing the fundamental components of our system:
+- Implementation of the basic 1D CNN architecture with encoder-decoder structure
+- Development of the audio preprocessing pipeline using STFT and mel spectrograms
+- Creation of basic training loops and loss functions
+- Setting up the project structure and development environment
+
+### Phase 2: Model Enhancement
+The second phase will focus on improving the model's architecture and performance:
+- Integration of residual connections to improve gradient flow
+- Implementation of attention mechanisms for better temporal coherence
+- Exploration of alternative activation functions beyond ReLU
+- Addition of dropout layers for better generalization
+- Development of a more sophisticated loss function incorporating spectral and temporal components
+
+### Phase 3: Training Pipeline Optimization
+This phase will enhance the training process and data handling:
+- Implementation of mixed-precision training for faster computation
+- Development of a data augmentation pipeline for audio
+- Creation of a distributed training setup for handling larger datasets
+- Integration of automated hyperparameter optimization
+- Implementation of model checkpointing and experiment tracking
+
+### Phase 4: Audio Quality Improvements
+Focus on enhancing the quality of generated audio:
+- Integration of perceptual loss functions
+- Implementation of phase reconstruction techniques
+- Development of post-processing filters for noise reduction
+- Addition of conditioning signals for controlled generation
+- Creation of evaluation metrics for audio quality assessment
+
 
 ## Contact
 
