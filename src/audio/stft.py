@@ -17,7 +17,7 @@ VALID_WINDOWS = [
 VALID_PAD_MODES = ["reflect", "constant", "edge", "linear_ramp"]
 
 
-class AudioSTFTProcessor:
+class STFTProcessor:
     """
     A processing class for the conversions between audio time-series and complex Short Time Fourier Transform (STFT) matrices
     """

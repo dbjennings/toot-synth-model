@@ -200,7 +200,7 @@ class MelProcessor:
         mel_matrix: np.ndarray,
         sample_rate: int = DEFAULT_SAMPLE_RATE,
         denormalize: bool = True,
-    ):
+    ) -> np.ndarray:
         """
         Convert mel spectrogram back to STFT spectrogram.
 
@@ -235,7 +235,7 @@ class MelProcessor:
         sample_rate: int = DEFAULT_SAMPLE_RATE,
         denormalize: bool = True,
         n_iter: int = 32,
-    ):
+    ) -> np.ndarray:
         """
         Convert mel spectrogram back to audio using Griffin-Lim algorithm.
 
